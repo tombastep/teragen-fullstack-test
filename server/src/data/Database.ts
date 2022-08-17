@@ -1,4 +1,4 @@
-import { database, password, user, host } from '../environment';
+import { database, password, user, host } from '../utils/environment';
 import { createConnection } from 'mysql2/promise';
 import { Sequelize } from 'sequelize';
 

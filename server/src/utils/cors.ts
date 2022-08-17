@@ -1,5 +1,5 @@
 import cors from 'cors';
-import { corsDomains } from '../environment';
+import { corsDomains } from './environment';
 
 type CorsOrigin = string | undefined;
 type CorsCallback = (...args: any[]) => void;

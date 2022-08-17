@@ -1,4 +1,4 @@
-// import 'dotenv/config'
+import env from 'env-var';
 import express from 'express';
 
 import cookieParser from 'cookie-parser';
@@ -7,7 +7,7 @@ import router from './routes/Root.route';
 import { handleErrors } from './controllers/Errors.controller';
 import cors from './utils/cors';
 
-import { port } from './environment';
+import { port } from './utils/environment';
 
 const app = express();
 
